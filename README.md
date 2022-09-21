@@ -56,14 +56,15 @@ public class Assignment1b extends Applet implements ActionListener
 		timint[2]=6;
 		timint[3]=8;
 		timint[4]=10;
-		for(int t=0; t<timint.length;t++){
-		int distance = (i1*timint[t])+(int)(i2*Math.pow(timint[t],2)/2);
-		if(whichButtonClk.equals( "Distance" ))
-		g.drawString( "The distance at "+timint[t]+"s is " + distance +"m", 10, (50*t)+190);
+		for(int t=0; t<timint.length;t++)
+			{
+			int distance = (i1*timint[t])+(int)(i2*Math.pow(timint[t],2)/2);
+			if(whichButtonClk.equals( "Distance" ))
+			g.drawString( "The distance at "+timint[t]+"s is " + distance +"m", 10, (50*t)+190);
+			}
 		}
 	}
-	}
-	}
+}
 ```
 ### HTML Code
 ```
